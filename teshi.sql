@@ -1,0 +1,21 @@
+SELECT FROM_UNIXTIME(1618483484,'%Y-%m-%d %H:%i:%s') FROM DUAL;
+
+select USER() FROM DUAL;
+
+
+SELECT DATABASE() FROM DUAL
+
+
+SELECT MD5('admin') FROM DUAL;
+
+
+SELECT LENGTH(MD5('admin')) AS '加密' FROM DUAL;
+
+SELECT * FROM MYSQL.`user`;
+
+SELECT IF(TRUE,'北京','上海') 'address' FROM DUAL;
+
+
+SELECT IFNULL('jack','我日你妈的额') FROM DUAL;
+
+SELECT
